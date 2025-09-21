@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FileTaskStorage implements TaskStorage {
-    private static final String FILE_PATH = "src/main/java/com/dzmajin/comprehensive/db/userDB.dat";
+    private static final String FILE_PATH = "src/main/java/com/dzmajin/comprehensive/db/taskDB.dat";
 
     @Override
     public void saveTasks(List<Task> tasks) {
